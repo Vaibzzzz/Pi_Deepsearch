@@ -6,7 +6,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.memory.chat_message_histories import FileChatMessageHistory
 from sqlalchemy import create_engine
 
-# === Step 1: Load Grok API Key ===
+# === Step 1: Load Grok API Key ==
 with open("XAI_API_KEY.txt", "r") as file:
     api_key = file.read().strip()
 
